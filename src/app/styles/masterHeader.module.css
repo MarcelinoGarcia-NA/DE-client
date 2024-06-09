@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    height: 120px;
+    background-color: #F1F3F6;
+    flex-direction: row;
+}
+.logoContainer{
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.titleContainer{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+
+}
+
+.logoutButton{
+}

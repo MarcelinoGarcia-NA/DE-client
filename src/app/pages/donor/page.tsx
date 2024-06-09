@@ -1,8 +1,10 @@
+import MasterHeader from "@/app/components/MasterHeader";
 import Navigation from "@/app/components/Navigation";
 
 export default function Donor() {
     return (
         <>
+            <MasterHeader titleMasterHeader=""/>
             <Navigation
                 profile="donor"
                 nameOptionOne="Meus Exames"

@@ -99,19 +99,67 @@ export default function Navigation(
         );
     }
     return (
-        <nav>
-            <ul>
+        <nav className={styles.nav}>
+            <ul className={styles.li}>
                 <li>
-                    {nameOptionOne}
+                    <Link href={linkOptionOne}>
+                        <div>
+                            <Image
+                                alt=""
+                                width={32}
+                                height={32}
+                                src={srcImageOptionOne} />
+                        </div>
+                    </Link>
+                    <span>{nameOptionOne}</span>
                 </li>
                 <li>
-                    {nameOptionTwo}
+                    <Link href={linkOptionTwo}>
+                        <div>
+                            <Image
+                                alt=""
+                                width={32}
+                                height={32}
+                                src={srcImageOptionTwo} />
+                        </div>
+                    </Link>
+                    <span>{nameOptionTwo}</span>
                 </li>
                 <li>
-                    {nameOptionThree}
+                    <Link href={linkOptionThree}>
+                        <div>
+                            <Image
+                                alt=""
+                                width={32}
+                                height={32}
+                                src={srcImageOptionThree} />
+                        </div>
+                    </Link>
+                    <span>{nameOptionThree}</span>
                 </li>
                 <li>
-                    {nameOptionThree}
+                    <Link href={linkOptionFour}>
+                        <div>
+                            <Image
+                                alt=""
+                                width={32}
+                                height={32}
+                                src={srcImageOptionFour} />
+                        </div>
+                    </Link>
+                    <span>{nameOptionFour}</span>
+                </li>
+                <li>
+                    <Link href={linkOptionFive}>
+                        <div className={styles.divSettings}>
+                            <Image
+                                alt=""
+                                width={32}
+                                height={32}
+                                src={srcImageOptionFive} />
+                        </div>
+                    </Link>
+                    <span>{nameOptionFive}</span>
                 </li>
             </ul>
         </nav>
