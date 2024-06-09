@@ -1,0 +1,35 @@
+.nav {
+    width: 30vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F3F6;
+}
+
+.li {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.li div{
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #E81515;
+}
+.li div:hover{
+    cursor: pointer;
+}
+.li span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.li .divSettings{
+    background-color: #0E0E0F;
+}
