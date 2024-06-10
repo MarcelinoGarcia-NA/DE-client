@@ -6,7 +6,6 @@ export async function GET() {
             id: 1,
             image: "https://avatars.githubusercontent.com/u/64509713?v=4",
             name: "Marcelino Garcia",
-
       });
     } catch (error) {
       return NextResponse.error();

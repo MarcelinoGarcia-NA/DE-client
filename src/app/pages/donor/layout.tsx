@@ -1,13 +1,12 @@
+
 export default function layout({
-    children,
-  }: Readonly<{
-    children: React.ReactNode;
-  }>){
-    return(
-        <>
-            <main>
-                {children}
-            </main>
-        </>
-    );
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <>
+      {children}
+    </>
+  );
 }
