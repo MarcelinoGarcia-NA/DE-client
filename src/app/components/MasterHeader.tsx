@@ -47,7 +47,7 @@ export default function MasterHeader(
                 <h1 className={styles.title}>{titleMasterHeader}</h1>
             </div>
             <div className={styles.userContainer}>
-                <img className={styles.image} alt="User Avatar" width={48} height={48} src={user.image}/>
+                <Image className={styles.image} alt="User Avatar" width={48} height={48} src={user.image}/>
                 <span className={styles.username}>{user.name}</span>
                 <button className={styles.logoutButton}>Logout</button>
             </div>
