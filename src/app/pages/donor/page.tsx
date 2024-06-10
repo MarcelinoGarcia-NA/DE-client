@@ -1,6 +1,6 @@
 import MasterHeader from "@/app/components/MasterHeader";
 import Navigation from "@/app/components/Navigation";
-import DashBoard from "./components/Dashboard";
+import DashBoard from "../donor/components/DashBoard";
 import styles from "../../pages/donor/styles/page.module.css";
 
 export default function Donor() {
