@@ -49,7 +49,7 @@ export default function MasterHeader(
             <div className={styles.userContainer}>
                 <Image className={styles.image} alt="User Avatar" width={48} height={48} src={user.image}/>
                 <span className={styles.username}>{user.name}</span>
-                <button className={styles.logoutButton}>Logout</button>
+                <button className={styles.logoutButton}>SAIR</button>
             </div>
         </header>
     );
