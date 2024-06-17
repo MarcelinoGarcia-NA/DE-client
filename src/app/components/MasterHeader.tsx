@@ -10,8 +10,8 @@ interface Props {
 
 interface User {
     id: number,
-    image: string,
     name: string,
+    email: string,
 }
 
 export default function MasterHeader(
@@ -23,8 +23,8 @@ export default function MasterHeader(
     const [user, setUser] = useState<User>(
         {
             id: 0,
-            image: "",
-            name: ""
+            name: "",
+            email: ""
         }
     );
 
@@ -32,7 +32,7 @@ export default function MasterHeader(
     useEffect(() => {
 
         const getUser = async () => {
-            const response = await fetch(url);
+            const response = await fetch(url + '/register');
             const data = await response.json();
             setUser(data);
         }
@@ -47,7 +47,7 @@ export default function MasterHeader(
                 <h1 className={styles.title}>{titleMasterHeader}</h1>
             </div>
             <div className={styles.userContainer}>
-                <Image className={styles.image} alt="User Avatar" width={48} height={48} src={user.image}/>
+                <Image className={styles.image} alt="User Avatar" width={48} height={48} src={"/iconUser.png"} />
                 <span className={styles.username}>{user.name}</span>
                 <button className={styles.logoutButton}>SAIR</button>
             </div>

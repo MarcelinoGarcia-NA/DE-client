@@ -1,0 +1,115 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.banner{
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    padding: 1rem 0 0 0;
+    background-color: #F1F3F6;
+}
+
+.login img{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginForm {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loginForm h2 {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input[type="email"],
+  .formGroup input[type="password"] {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #F1F3F6;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .loginForm button[type="submit"]{
+    width: 100%;
+    height: 50.49px;
+    padding: 10px;
+    background-color: #E81515;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .loginForm button[type="button"] {
+    width: 100%;
+    height: 50.49px;
+    padding: 10px;
+    border: 1px #E81515 solid;
+    color: #E81515;
+    font-size: large;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .loginForm button[type="submit"]:hover{
+    background-color: #E81515;
+  }
+  .iconForm{
+        width: 51px;
+        height: 51px;
+        border-radius: 4px;
+        bottom: 0px;
+        right: 0;
+        position: absolute;
+        background-color: #E81515;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+   }
+   .iconForm img{
+      margin-top: 5px;
+      max-width: 100%; 
+  }
+  .loginForm a {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    color: #E81515;
+    text-decoration: none;
+  }
+  
+  .loginForm a:hover {
+    text-decoration: underline;
+  }

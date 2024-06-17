@@ -1,56 +1,111 @@
-.container{
-    width: 100%;
-    height: 50px;   
-    display: flex;
-    flex-direction: row;
-    margin:  40px 2rem 0 0;
-    border-radius: 10px;
-    box-shadow: 0 1.5px 1.5px #030303c5;
-    background-color: #F1F3F6;
+.main {
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
 }
-.countExams{
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
+
+.container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 40px 2rem 0 0;
+  border-radius: 10px;
+  box-shadow: 0 1.5px 1.5px #030303c5;
+  background-color: #F1F3F6;
 }
-.search{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+
+.countExams {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
 }
-.search input{
-   width: 100%;
-   border: none;
-   border-radius: 5px;
-   padding-left: 2rem;
-   box-shadow: 0 1px 1px #272626c5;
-   position: relative;
-   height: 25px;
+
+.search {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
-.search img{
+
+.search input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2rem;
+  box-shadow: 0 1px 1px #272626c5;
+  position: relative;
+  height: 25px;
+}
+
+.search img {
   display: flex;
   flex-direction: row;
   margin: 0 1rem 0 0;
   position: absolute;
 }
-.search input:focus, .filter select:focus{
-    outline: none;
+
+.search input:focus,
+.filter select:focus {
+  outline: none;
 }
-.valueCountExams{
-    color: #E81515;
+
+.valueCountExams {
+  color: #E81515;
 }
-.filter{
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 1em;
-    margin: 1rem;
+
+.filter {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1em;
+  margin: 1rem;
 }
-.filter img{
-    margin-top: -0.5rem;
+
+.filter img {
+  margin-top: -0.5rem;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.button {
+  background-color: none;
+  border: none;
+}
+
+.button:hover {
+   cursor: pointer;
 }

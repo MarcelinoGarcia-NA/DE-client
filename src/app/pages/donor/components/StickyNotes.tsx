@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/stickyNotes.module.css";
 import { url } from "@/app/services/apiConfig";
 
-export default function StickyNotes() {
+export default function StickyNotes() : React.ReactElement{
 
     const [infos, setInfos] = useState<{ nameInfo: string }[]>([]);
 

@@ -1,6 +1,6 @@
 import styles from "../styles/dashBoard.module.css";
 
-export default function DashBoard() {
+export default function DashBoard(): React.ReactElement {
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>EXAMES</h2>

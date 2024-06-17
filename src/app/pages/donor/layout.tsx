@@ -9,7 +9,7 @@ export default function layout({
   return (
     <>
       <MasterHeader titleMasterHeader="" />
-      <div className={styles.containerNavigation}>
+      <div className={styles.container}>
         <Navigation
           profile="donor"
           nameOptionOne="Meus Exames"
@@ -18,7 +18,7 @@ export default function layout({
 
           nameOptionTwo="Nova Doação"
           srcImageOptionTwo="/iconDonation.png"
-          linkOptionTwo=""
+          linkOptionTwo="/pages/donor/newDonation"
 
           nameOptionThree="Notificações"
           srcImageOptionThree="/iconNotification.png"
@@ -32,8 +32,9 @@ export default function layout({
           srcImageOptionFive=""
           linkOptionFive=""
         />
-        {children}
+         {children}
       </div>
+     
     </>
   );
 }
